@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoGP - Pasión por las motos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #d62828;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #d62828;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #d62828;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MotoGP - Pasión por las motos</h1>
+        <p>La velocidad se siente en el corazón</p>
+    </header>
+
+    <nav>
+        <a href="#que-es">¿Qué es MotoGP?</a>
+        <a href="#pilotos">Pilotos famosos</a>
+        <a href="#circuitos">Circuitos</a>
+    </nav>
+
+    <section id="que-es">
+        <h2>¿Qué es MotoGP?</h2>
+        <p>MotoGP es la competición de motociclismo más importante del mundo. En ella corren motos muy rápidas y los mejores pilotos. Cada carrera es emocionante y se celebra en diferentes países.</p>
+    </section>
+
+    <section id="pilotos">
+        <h2>Pilotos famosos</h2>
+        <p>Algunos pilotos muy conocidos son:</p>
+        <ul>
+            <li>Marc Márquez (España)</li>
+            <li>Valentino Rossi (Italia)</li>
+            <li>Francesco Bagnaia (Italia)</li>
+            <li>Jorge Martín (España)</li>
+        </ul>
+    </section>
+
+    <section id="circuitos">
+        <h2>Circuitos importantes</h2>
+        <p>Estos son algunos circuitos donde se corre MotoGP:</p>
+        <ul>
+            <li>Circuito de Jerez (España)</li>
+            <li>Mugello (Italia)</li>
+            <li>Silverstone (Reino Unido)</li>
+            <li>Phillip Island (Australia)</li>
+        </ul>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/MotoGP_logo.svg" alt="Logo de MotoGP">
+    </section>
+
+    <footer>
+        <p>Hecho por un fan de MotoGP - 4º ESO</p>
+    </footer>
+
+</body>
+</html>
