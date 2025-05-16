@@ -1,207 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MotoGP - Inicio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-    }
-    header {
-      background-color: #222;
-      color: white;
-      padding: 1em;
-      text-align: center;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      padding: 0;
-    }
-    nav li {
-      margin: 0 15px;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    main {
-      padding: 2em;
-      text-align: center;
-    }
-    footer {
-      background-color: #222;
-      color: white;
-      text-align: center;
-      padding: 1em;
-      margin-top: 2em;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundial de Motociclismo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+        }
+        header {
+            background-color: #d32f2f;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #b71c1c;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #222;
+            text-align: center;
+            padding: 10px;
+            color: #bbb;
+        }
+        h2 {
+            color: #ff5252;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>MotoGP - Página Principal</h1>
-    <nav>
-      <ul>
-        <li><a href="motogp.html">MotoGP</a></li>
-        <li><a href="moto2.html">Moto2</a></li>
-        <li><a href="moto3.html">Moto3</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <h2>Bienvenido al mundo del motociclismo de élite</h2>
-    <p>Explora las categorías del campeonato mundial de motociclismo: MotoGP, Moto2 y Moto3. Descubre las diferencias entre las motos, sus reglamentos y la emoción que cada categoría ofrece.</p>
-  </main>
+<header>
+    <h1>Mundial de Motociclismo</h1>
+    <p>Toda la información sobre MotoGP, Moto2 y Moto3</p>
+</header>
 
-  <footer>
-    <p>Basado en la <a href="https://html5up.net/phantom" target="_blank">plantilla</a> Phantom de HTML5 UP.</p>
-  </footer>
-</body>
-</html>
+<nav>
+    <a href="#motogp">MotoGP</a>
+    <a href="#moto2">Moto2</a>
+    <a href="#moto3">Moto3</a>
+    <a href="#historia">Historia</a>
+    <a href="#campeones">Campeones Legendarios</a>
+    <a href="#curiosidades">Curiosidades</a>
+</nav>
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Categoría MotoGP</title>
-  <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; }
-    header, footer {
-      background-color: #444; color: white; text-align: center; padding: 1em;
-    }
-    nav ul {
-      list-style: none; display: flex; justify-content: center; padding: 0;
-    }
-    nav li { margin: 0 15px; }
-    nav a { color: white; text-decoration: none; font-weight: bold; }
-    main { padding: 2em; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>MotoGP</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="moto2.html">Moto2</a></li>
-        <li><a href="moto3.html">Moto3</a></li>
-      </ul>
-    </nav>
-  </header>
+<section id="motogp">
+    <h2>MotoGP</h2>
+    <p>MotoGP es la categoría más prestigiosa del motociclismo mundial. Fundada en 2002 como sucesora de la categoría de 500cc, representa la cima del desarrollo tecnológico y del talento en el motociclismo. Las motos son prototipos únicos desarrollados por fábricas como Ducati, Honda, Yamaha, KTM y Aprilia.</p>
+    <p>Los Grandes Premios se celebran en circuitos icónicos como Mugello, Assen, Phillip Island y el Circuito de Jerez. La temporada actual consta de más de 20 carreras en diferentes países.</p>
+</section>
 
-  <main>
-    <h2>La categoría reina del motociclismo</h2>
-    <p>MotoGP es la categoría más alta del campeonato. Las motos son prototipos avanzados con motores de hasta 1000cc y más de 250 caballos de fuerza. Pilotos como Marc Márquez, Valentino Rossi o Francesco Bagnaia compiten aquí.</p>
-    <h3>Reglamento Básico</h3>
+<section id="moto2">
+    <h2>Moto2</h2>
+    <p>Moto2 nació en 2010 reemplazando a la antigua categoría de 250cc. Utiliza motores Triumph de 765cc desde 2019, y aunque todos los motores son iguales, los equipos pueden usar diferentes chasis. Esta categoría es clave en la formación de futuros pilotos de MotoGP.</p>
+    <p>Muchos campeones de Moto2 han dado el salto exitoso a MotoGP, como Marc Márquez, Franco Morbidelli y Johann Zarco.</p>
+</section>
+
+<section id="moto3">
+    <h2>Moto3</h2>
+    <p>Desde 2012, Moto3 reemplaza a la categoría de 125cc. Las motos tienen motores monocilíndricos de 250cc. Es conocida por sus emocionantes carreras, repletas de adelantamientos, donde la diferencia entre el primero y el décimo suele ser inferior a un segundo.</p>
+    <p>Pilotos como Joan Mir, Brad Binder o Jorge Martín comenzaron su carrera internacional aquí.</p>
+</section>
+
+<section id="historia">
+    <h2>Historia del Campeonato</h2>
+    <p>El Campeonato del Mundo de Motociclismo comenzó en 1949, bajo la regulación de la FIM. En sus inicios, contaba con varias categorías: 50cc, 125cc, 250cc, 350cc y 500cc. A lo largo de los años, las categorías se fueron adaptando a nuevas tecnologías y necesidades del deporte.</p>
+    <p>En 2002, la categoría reina pasó de motos de 500cc a prototipos de 990cc bajo el nombre de MotoGP. En 2010 y 2012 llegaron Moto2 y Moto3 respectivamente, como parte de una reestructuración del campeonato.</p>
+</section>
+
+<section id="campeones">
+    <h2>Campeones Legendarios</h2>
     <ul>
-      <li>Motor: Hasta 1000cc, 4 tiempos</li>
-      <li>Neumáticos oficiales: Michelin</li>
-      <li>Electrónica unificada (ECU estándar)</li>
-      <li>Máximo de 22 pilotos</li>
+        <li><strong>Valentino Rossi:</strong> 9 veces campeón del mundo, ícono global del motociclismo.</li>
+        <li><strong>Giacomo Agostini:</strong> El más laureado, con 15 títulos mundiales (8 en 500cc).</li>
+        <li><strong>Marc Márquez:</strong> 8 títulos y el piloto más joven en ganar en MotoGP.</li>
+        <li><strong>Ángel Nieto:</strong> 13 veces campeón del mundo (decía “12+1” por superstición).</li>
+        <li><strong>Mick Doohan:</strong> Dominador absoluto en los años 90 con 5 títulos consecutivos.</li>
     </ul>
-  </main>
+</section>
 
-  <footer>
-    <p>Basado en la <a href="https://html5up.net/hyperspace" target="_blank">plantilla</a> Hyperspace de HTML5 UP.</p>
-  </footer>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moto2</title>
-  <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; }
-    header, footer {
-      background-color: #444; color: white; text-align: center; padding: 1em;
-    }
-    nav ul {
-      list-style: none; display: flex; justify-content: center; padding: 0;
-    }
-    nav li { margin: 0 15px; }
-    nav a { color: white; text-decoration: none; font-weight: bold; }
-    main { padding: 2em; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Moto2</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="motogp.html">MotoGP</a></li>
-        <li><a href="moto3.html">Moto3</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <h2>La categoría intermedia del mundial</h2>
-    <p>Moto2 actúa como un escalón entre Moto3 y MotoGP. Todas las motos utilizan motores Triumph de 765cc, aunque los chasis son desarrollados por diferentes fabricantes como Kalex, Boscoscuro o MV Agusta.</p>
-    <h3>Reglamento Básico</h3>
+<section id="curiosidades">
+    <h2>Curiosidades del Mundial</h2>
     <ul>
-      <li>Motor: Triumph 765cc (motor único para todos)</li>
-      <li>Electrónica limitada y simplificada</li>
-      <li>Neumáticos Dunlop</li>
+        <li>El circuito más rápido es Mugello, donde se han registrado velocidades superiores a los 360 km/h.</li>
+        <li>El piloto más veterano en competir en MotoGP fue Colin Edwards con más de 40 años.</li>
+        <li>El Gran Premio con más adelantamientos suele ser el de Phillip Island, en Australia.</li>
+        <li>Valentino Rossi usaba el número 46 por herencia de su padre, también piloto.</li>
     </ul>
-  </main>
+</section>
 
-  <footer>
-    <p>Basado en la <a href="https://html5up.net/hyperspace" target="_blank">plantilla</a> Hyperspace de HTML5 UP.</p>
-  </footer>
+<footer>
+    <p>© 2025 Campeonato Mundial de Motociclismo - Página informativa</p>
+</footer>
+
 </body>
 </html>
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moto3</title>
-  <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; }
-    header, footer {
-      background-color: #444; color: white; text-align: center; padding: 1em;
-    }
-    nav ul {
-      list-style: none; display: flex; justify-content: center; padding: 0;
-    }
-    nav li { margin: 0 15px; }
-    nav a { color: white; text-decoration: none; font-weight: bold; }
-    main { padding: 2em; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Moto3</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="motogp.html">MotoGP</a></li>
-        <li><a href="moto2.html">Moto2</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <h2>La categoría de entrada al mundial</h2>
-    <p>Moto3 es la categoría donde se forman las futuras estrellas. Las motos tienen motores de 250cc, 4 tiempos, y se caracterizan por su ligereza y maniobrabilidad. Es la categoría más competitiva en cuanto a igualdad técnica.</p>
-    <h3>Reglamento Básico</h3>
-    <ul>
-      <li>Motor: 250cc, 4 tiempos</li>
-      <li>Máximo de 250cc y 1 cilindro</li>
-    </ul>
-  </main>
-</body>
-</html>
-  
